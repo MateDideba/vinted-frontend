@@ -1,0 +1,32 @@
+.offer {
+  background-color: #eaedee;
+}
+.offer-page {
+  display: flex;
+  gap: 10px;
+}
+
+.offer-page > div:first-child {
+  border: 1px solid black;
+  width: 60%;
+  height: 600px;
+  background-color: white;
+}
+.offer-page > div:last-child {
+  border: 1px solid black;
+  width: 40%;
+  height: 600px;
+  padding: 30px;
+  background-color: white;
+}
+
+.offer-page img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.offer-name {
+  font-size: 26px;
+  font-weight: bold;
+}
